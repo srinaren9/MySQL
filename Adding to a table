@@ -1,0 +1,14 @@
+#Adding to a table
+INSERT INTO Plane VALUES
+('101', 'Hyderabad', 'Mumbai', '09-08-2024', '9:00', '10:30','1hr 30min'),
+('102', 'Hyderabad', 'Delhi', '09-08-2024', '9:03', '11:33','2hr 30min'),
+('103', 'Hyderabad', 'Bangalore', '09-08-2024', '9:05', '10:25', '1hr 20min'),
+('104', 'Hyderabad', 'Chennai', '09-08-2024', '9:10', '10:30', '1hr 20min'),
+('105', 'Hyderabad', 'Goa-Mopa', '09-08-2024', '9:13', '10:28', '1hr 15min),
+('106', 'Hyderabad', 'Kochi', '09-08-2024', '9:15', '10:50', '1hr 35min'),
+('107', 'Hyderabad', 'Kolkata', '09-08-2024', '9:18', '11:28', '2hr 10min'),
+('108', 'Hyderabad', 'Trivandrapuram', '09-08-2024', '9:20', '11:05', '1hr 45min'),
+('109', 'Hyderabad', 'Tirupati', '09-08-2024', '9:23', '10:33', '1hr 10min'),
+('110', 'Hyderabad', 'Visakhapatnam', '09-08-2024', '9:25', '10:35', '1hr 10min'),
+('111', 'Hyderabad', 'Vijayawada', '09-08-2024', '9:28', '10:38', '1hr 10min'),
+('112', 'Hyderabad', 'Jaipur', '09-08-2024', '9:30', '11:20', '1hr 50min');
