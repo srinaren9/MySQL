@@ -1,0 +1,2 @@
+#Viewing table structure
+desc <table_name>
