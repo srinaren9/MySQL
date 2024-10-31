@@ -1,0 +1,27 @@
+#Different types of constraints 
+#UNIQUE will ensure all values in that column have a inque value
+#Primary key is like unique but ensures that it helps with identification there can only be one primary key per table 
+#Check will ensure the inputed string or value passes a condition check only if it does for that column the value can be inputed
+#Default will give a defualt value to the column value if the value for that is not specified
+#NOT NULL will ensure user has to enter a value there and if no value is entered there it reuslts in an error
+#Foreign key acts as a interlink between two tables. It is the primary key of one table (which is known as master table) and a column of another table (known as child table). It helps in connecting two different tables. 
+
+
+create table emp
+    (empid varchar(255) primary key,
+    firstname varchar(255) NOT NULL,
+    lastname varchar(255) NOT NULL,
+    emailid varchar(255) DEFAULT 'None',
+    phoneno varchar(10) UNIQUE,
+    Salary int CHECK(SALARY>5000),
+    password varchar(255) NOT NULL);
+
+create table users
+    (userid varchar(255) primary key,
+    firstname varchar(255) NOT NULL,
+    lastname varchar(255) NOT NULL,
+    emailid varchar(255) DEFAULT 'None',
+    phoneno varchar(10) UNIQUE,
+    password varchar(255) NOT NULL,
+    helper varchar(255),
+    FOREIGN KEY(helper) REFERENCES emp(empid));
